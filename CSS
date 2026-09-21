@@ -40,11 +40,11 @@ box-shadow - a shadow behind the element itself. you usually want this set to no
  
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
  
-body {font-family: INPUT HERE;}
+body {font-family: "Cookie", cursive;}
  
-.topbar {font-family: INPUT HERE;}
+.topbar {font-family: "Cookie", cursive;}
  
-.navbar {font-family: INPUT HERE;}
+.navbar {font-family: "Cookie", cursive;}
 
 /* BACKGROUNDS 
 The first one is for PC, the second is for mobile. You can also use an image in the second one
@@ -203,14 +203,14 @@ border-radius: 0px !important;
 color: #0A0317 !important;}
 	
 .comment {     
-background: #HEX !important;
+background: #E595F3 !important;
 border: none !important;
 border-bottom: none !important;
 border-radius: 0px !important;
-color: #HEX !important;
+color: #7F1093 !important;
 text-align: center !important;}
 .text-muted { 
-color: #HEX !important; }
+color: #5B0C6A !important; }
 
 input.bad {
 background: #A315BC !important;
@@ -317,12 +317,12 @@ Keep border-top on div.emoteList.active::before as none, otherwise you'll
 have a super weird gap between the emotelist and the little triangle*/
 
 div.emoteList.active {
-  background: #HEX !important;
-  border: 1px solid #HEX !important;
+  background: #D3BFF8 !important;
+  border: 1px solid #9A6CEF !important;
   box-shadow: none !important;
 }
 div.emoteList.active::before {
-background: #HEX
+background: #D3BFF8
 border-top: none !important;
 border: 1px solid #HEX !important; }
 
@@ -500,7 +500,7 @@ otherwise it can make your navbar look weird.
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 display: none;}
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-content: url('IMG LINK'); }
+content: url('https://cdn.imgchest.com/files/4765ba04555b.png'); }
  
 /* TEXT BOXES & BUTTONS -
 all text boxes and buttons will be whatever color you put in here
@@ -899,109 +899,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 /* ALL CURRENCY ICONS - also by kat and pandora 
 if you do not want to change currency icons, simply delete this section of code */
  
-/* GOLD BEETLE */
-img[src$="gold.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SILVER BEETLE */
-img[src$="silver.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-	
-/* EVENT CURRENCY */
- 
-/* JAN */
-img[src$="dermestid.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* FEB */
-img[src$="heartshell.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* MARCH */
-img[src$="beetlerhino.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* APRIL */
-img[src$="easteregg.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
- 
-/* MAY */
-img[src$="beetlemant.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JUNE */
-img[src$="khepri.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JULY - METEORITE SHARDS */
-img[src$="shard.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* JULY - AXION CORES */
-img[src$="axion.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* AUG - CARRION BONES */
-img[src$="beetlecarrion.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* AUG - DRY BONES */
-img[src$="bone.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SEPT - JEWEL BEETLES */
-img[src$="beetlejewel.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* SEPT - ELDRITCH TOKENS */
-img[src$="eldritch.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - BLOOD BEETLES */
-img[src$="beetleblood.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - NEPHILIM FEATHERS */
-img[src$="nephelinefeather.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* OCT - DEMON SCALES */
-img[src$="demonicscale.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* NOV */
-img[src$="scarabbeetle.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
- 
-/* DEC */
-img[src$="stinkbug.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-	
-/* TREASURE HUNT */
-img[src$="icon_doubloon.png"] {
-    content:url('LINK')!important;
-    width:20px!important; }
-	
+
 /* IF YOU WANT A CUSTOM CURSOR GO TO https://www.cursors-4u.com/
 AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
 DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
