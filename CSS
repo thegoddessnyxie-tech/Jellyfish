@@ -877,7 +877,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 
 /* MEMBER ONLINE */
 .member-online {
-    background: #HEX;
+    background: #611AE6;
     content:url('none')!important;
 	border-radius: 0px;
     width:40px!important;
@@ -887,7 +887,7 @@ or fill out both i can't stop you but it'll be a clusterfuck */
 	
 /* MEMBER OFFLINE */
 .member-offline {
-    background: #HEX;
+    background: #C71AE6;
     content:url('none')!important;
 	border-radius: 0px;
     width:40px!important;
@@ -1007,7 +1007,15 @@ AND COPY AND PASTE THE PROVIDED CODE ONCE YOU CLICK THE GET HTML/CSS CODE BUTTON
 DO IT BELOW THIS POINT BUT BEFORE THE CREDIT */
 	
 /* CREDIT - no touchy this part, the code will work just fine */
- 
+
+
+/* Purple Paw Print - https://www.cursors-4u.com/cursor/nat32 */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/purple-paw-print-d19c5382-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+
+
 .breadcrumb::after {
 content: "css template by katie (#106445) & jester (#187561)";
 color: #HEX;
@@ -1032,9 +1040,3 @@ z-index: 100; }
             right: 22%;
         }
     }
-
-/* Purple Paw Print - https://www.cursors-4u.com/cursor/nat32 */
-* {
-  cursor: url('https://cdn.cursors-4u.net/previews/purple-paw-print-d19c5382-32.webp') 32 32, auto !important;
-}
-/* End www.Cursors-4U.com Code */
